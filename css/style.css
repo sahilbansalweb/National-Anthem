@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 3px solid green;  */
+}
+
+button{
+    width: 22rem;
+    height: 14rem;
+    background: url("/img/Flag_of_India.svg");
+    background-size: cover;
+}
+.center img{
+    height: 50vh;
+    width: 50vw;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+@media (max-width:450px) {
+
+}
